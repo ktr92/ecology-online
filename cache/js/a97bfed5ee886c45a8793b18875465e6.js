@@ -1,0 +1,1 @@
+$(document).on('click','.trash_clear',function(){if(confirm($(this).attr('confirm'))){$(this).parent('form').submit();}});

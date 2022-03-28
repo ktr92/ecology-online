@@ -1,0 +1,3 @@
+$(document).on('click','.js_votes_form :button, .votes_form :button',function(){$(this).parents('form').find("input[name=result]").val(1);$(this).parents('form').submit();});$(document).on('click','.js_votes_form :radio, .votes_form :radio',function(){if($(this).attr('value')=='userversion'){$('.js_votes_userversion, .votes_userversion').show();}
+else
+{$('.js_votes_userversion, .votes_userversion').hide();}});
